@@ -42,7 +42,7 @@ public:
         }
         return trajectory;
     }
-    // 无约束
+    // 无约束贝塞尔曲线
     Path GenerateBezierTrajectory(Path control_points) {
         Path trajectory;
         int n = control_points.size() - 1;
